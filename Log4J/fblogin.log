@@ -1,0 +1,10 @@
+2022-09-24 11:30:00 INFO  FBLoginTest:29 - Initialise webdriver
+2022-09-24 11:30:08 INFO  FBLoginTest:44 - loginTest:STARTED
+2022-09-24 11:30:13 INFO  FBLoginTest:39 - Navigating to Base URL
+2022-09-24 11:30:24 INFO  FBLoginTest:73 - Login is not successful  with Invalid Credentials
+2022-09-24 11:30:24 INFO  FBLoginTest:52 - loginTest: PASSED
+2022-09-24 11:30:24 INFO  FBLoginTest:44 - loginTest:STARTED
+2022-09-24 11:30:25 INFO  FBLoginTest:39 - Navigating to Base URL
+2022-09-24 11:30:41 INFO  FBLoginTest:50 - Login Successfully with Valid credentials
+2022-09-24 11:30:53 INFO  FBLoginTest:54 - Logout successfully
+2022-09-24 11:30:53 INFO  FBLoginTest:52 - loginTest: PASSED
