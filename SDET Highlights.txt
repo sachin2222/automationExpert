@@ -1,0 +1,118 @@
+
+1. Java 
+-> OOps(interface, Inheritanance , polymorphism , encapsulation)
+--> IO
+-> Arrays
+--> Strings
+--> Collections
+--> Streams
+
+
+2. Selenium 
+
+->Locators(xpath , css selector, id , name , linkText)
+   ->Xpath(Relative , absolute xpath , siblings xpath , child to parent traversal , parent to child traversal)
+
+//div[@class='tableFixHead']/table/tbody/tr/td[1]/following-sibling::td[3]
+//div[@class='tableFixHead']/table/tbody/tr/td[2]/preceding-sibling::td[1]
+//div[contains(@id,'sachin')]
+//div[starts-with(@id,'sachin')]
+
+-> WebElements(Button, Text box , radio button , check boxes , drop down , dynamic drop downs,Date Picker)
+-> Actions Class 
+-> Select Class
+-> Handling Alerts
+-> Java Script Executor- widow scrolling , web table scrolling , scrolling to web element.
+-> How to handle multiple windows?
+-> How to handle Frames?
+-> Implicit wait and explicit wait
+-> HTML Web Tables
+-> Page object Model(POM) -> find BY annotation , PageFactory etc
+-> File upload using send keys or Robot Class.
+-> Apache POI(Data Driven Framework)
+-->Limiting webdriver scope
+--> handling calender UI.
+--> Selenium - DB integration by JDBC Driver API.
+--> Takes Screenshots webdriver and webelement level.
+--> how to find broken links on web page?
+--> Chrome Options - handling ssl certificates, incognito, disable notifications, add extentions , plugins etc.
+--> Selenium 4.0 features- Relative locator(above , below ) , web element screenshot , get dimenstion of the webelement etc.
+
+
+
+3. TDD Framework
+-> TESTNG FRAMEWORK
+   ->How to run a group using testng.xml file?
+   -> include/exclude a specific method using testng.xml
+   -> Parameterisation of Test Case by Data Providers
+   -> Multiple test run using one testng suite.
+    -> Multiple classes execution in one test
+    --> Dataprovider integration with apache POI.
+   --> Testng.xml file and maven integration using maven-surefire plugin
+   --> profiling in pom.xml file - execute profile by maven cmd- mvn test -psmoke--> smoke is Profile id.
+
+
+4. GIT and GITHUB(version control system)
+
+git init - to initialse the local git repository
+git remote add origin "https://github.com/sachin2222/AutomationPractice2022.git" --> TO add the orgin of github central repository.
+git pull origin main  --> to pull the code from the specific branch
+
+git commit -m "message"
+git commit -a -m "message"
+
+git push origin master
+git checkout branchname
+ls- to list down all teh file names
+
+git merge branchname - to merge the content of other branch into current branch
+git clone https://github.com/sachin2222/RealTimeProject.git -> to clone the central remote repo to local.
+
+git remote set-url origin https://github.com/sachin2222/RestAssuredTest_BDD.git
+
+
+5. BDD Framework(Cucumber)
+BDD framewokr is basically behaviour oriented of the application and test case designed based on the customer point of view in English language.
+3 Amigo's- PO , DEV and QA.
+
+TDD has Test centric approach.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
