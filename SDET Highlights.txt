@@ -76,6 +76,80 @@ BDD framewokr is basically behaviour oriented of the application and test case d
 3 Amigo's- PO , DEV and QA.
 
 TDD has Test centric approach.
+--> Runner clas
+@Runwith(cucumber.class)
+@cucumberOptions(features, glue, plugins, dryrun, monochrome, strict, tags)
+
+dryrun=true--> to execute runner class before actual run to make sure that all steps of feature file has been defined properly in step defination class.
+strict=true--> Test cases will execute but the step which has not defeined in step defination class will be failed.
+it has been deprecated after cucumber 7
+
+-->Data driven testing
+1. Scenario Outline with Examples Keyword
+2. using HashTable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
