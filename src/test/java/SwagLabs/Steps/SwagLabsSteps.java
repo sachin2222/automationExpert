@@ -2,20 +2,15 @@ package SwagLabs.Steps;
 
 import SwagLabs.PageObjects.LoginPageObjects;
 import Utllities.Base;
-import io.cucumber.datatable.DataTable;
-import io.cucumber.java.After;
-import io.cucumber.java.AfterAll;
+
 import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
-import java.util.List;
-import java.util.Map;
+import org.openqa.selenium.WebDriver;
 
 
 public class SwagLabsSteps extends Base {

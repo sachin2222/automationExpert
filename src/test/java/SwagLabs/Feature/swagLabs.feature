@@ -1,4 +1,4 @@
-Feature: SwagLabs Application funtional Test
+Feature: SwagLabs Application functional Test
 
 
   @Login

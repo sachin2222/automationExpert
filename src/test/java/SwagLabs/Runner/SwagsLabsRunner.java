@@ -6,14 +6,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:\\Users\\sachi\\OneDrive\\Desktop\\AutomationProject\\SeleniumBDDFrameworkj\\src\\test\\java\\SwagLabs\\Feature\\swagLabs.feature",
+        features = "C:\\Users\\sachi\\OneDrive\\Desktop\\AutomationProject\\SeleniumBDDFrameworkj\\src\\test\\java\\SwagLabs\\Feature\\bacground.feature",
         glue = "SwagLabs/Steps",
-        plugin = {"progress", "html:target/cucumber-report.html"},
+        plugin = {"pretty", "html:target/cucumber-report.html"
+                ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+        publish = true,
         dryRun = false,
         monochrome = true,
-        tags = "@Login or @Cart"
-
-
+        stepNotifications = true
 )
 public class SwagsLabsRunner {
 }
