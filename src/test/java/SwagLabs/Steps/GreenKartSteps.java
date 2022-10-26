@@ -39,12 +39,14 @@ public class GreenKartSteps extends Base {
     public void user_clicks_on_search_button() {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
+
     }
 
     @Then("User clicks on Top Deals link.")
     public void user_clicks_on_top_deals_link() {
         driver.findElement(By.xpath("//a[@target='_blank'][2]")).click();
-        int a=10/0;
+
+
 
 
     }

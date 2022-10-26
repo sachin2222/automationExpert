@@ -9,11 +9,13 @@ import org.junit.runner.RunWith;
         features = "C:\\Users\\sachi\\OneDrive\\Desktop\\AutomationProject\\SeleniumBDDFrameworkj\\src\\test\\java\\SwagLabs\\Feature\\bacground.feature",
         glue = "SwagLabs/Steps",
         plugin = {"pretty", "html:target/cucumber-report.html"
-                ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+                , "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "rerun:target/failed.txt"},
         publish = true,
         dryRun = false,
         monochrome = true,
-        stepNotifications = true
+        stepNotifications = true,
+        tags = "@Search or @Deal"
 )
 public class SwagsLabsRunner {
 }
